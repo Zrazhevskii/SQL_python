@@ -5,7 +5,7 @@ INSERT INTO singer (singer_name) VALUES ('Amy Winehouse'), ('Justin Timberlake')
 INSERT INTO singer (singer_name) VALUES ('Michael Jackson'), ('Kylie Minoque')
 
 INSERT INTO album (album_name, data) VALUES ('Nevermind', '2010-09-24'), ('Meteora', '2003-03-23');
-INSERT INTO album (album_name, data) VALUES ('Recovery', '2010-01-03'), ('Demon Days', '2005-05-11'), ('Sinatra Reprise', '1991-03-26');
+INSERT INTO album (album_name, data) VALUES ('Recovery', '2010-01-01'), ('Demon Days', '2005-05-11'), ('Sinatra Reprise', '1991-03-26');
 INSERT INTO album (album_name, data) VALUES ('Black to Black', '2006-10-27'), ('Justified', '2002-11-04'), ('Revolver', '1966-08-05');
 INSERT INTO album (album_name, data) VALUES ('Thriller', '1982-11-30'), ('Fever', '2001-10-01');
 
@@ -30,3 +30,13 @@ INSERT INTO singer_album (singer_id, album_id) VALUES (1, 1), (2, 2), (3, 3), (4
 
 INSERT INTO compilation_trek (trek_id, compilation_id) VALUES (2, 1), (4, 1), (7, 1), (1, 2), (4, 2), (6, 2), (7, 2), (5, 3), (8, 3), (14, 3), (13, 4), (7, 4);
 INSERT INTO compilation_trek (trek_id, compilation_id) VALUES (6, 4), (9, 5), (10, 5), (11, 5), (13, 6), (16, 6), (14, 7), (15, 7), (18, 7), (18, 8), (20, 8);
+
+-----добавление cогласно требованию следующего дз
+
+INSERT INTO singer (singer_name) VALUES ('Rammstein'), ('The Killers'), ('Ozzy Osbourne');
+INSERT INTO album (album_name, data) VALUES  ('Rammstein', '2019-05-17'), ('Imploding the mirage', '2020-08-21'), ('Ordinary Man', '2020-02-21');
+
+
+INSERT INTO trek (trek_name, album_id, duration) VALUES ('Deutschland', 11, 322), ('Caution', 12, 269), ('Take what you want', 13, 230);
+INSERT INTO genre_singer (genre_id, singer_id) VALUES (1, 11), (1, 12), (2, 12), (3, 12), (1, 13), (2, 13), (3, 13);
+INSERT INTO singer_album (singer_id, album_id) VALUES (11, 11), (12, 12), (13, 13);
