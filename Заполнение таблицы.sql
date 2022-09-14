@@ -1,3 +1,5 @@
+-----------Домашнее задание «Select-запросы, выборки из одной таблицы»
+
 INSERT INTO genre (genre_name) VALUES ('rock'), ('hip hop'), ('jazz'), ('pop'), ('disco');
 
 INSERT INTO singer (singer_name) VALUES ('Nivana'), ('Linkin Park'), ('Eminem'), ('Gorillaz'), ('Frank Sinatra');
@@ -31,7 +33,7 @@ INSERT INTO singer_album (singer_id, album_id) VALUES (1, 1), (2, 2), (3, 3), (4
 INSERT INTO compilation_trek (trek_id, compilation_id) VALUES (2, 1), (4, 1), (7, 1), (1, 2), (4, 2), (6, 2), (7, 2), (5, 3), (8, 3), (14, 3), (13, 4), (7, 4);
 INSERT INTO compilation_trek (trek_id, compilation_id) VALUES (6, 4), (9, 5), (10, 5), (11, 5), (13, 6), (16, 6), (14, 7), (15, 7), (18, 7), (18, 8), (20, 8);
 
------добавление cогласно требованию следующего дз
+-----Домашнее задание «Продвинутая выборка данных» (добавление cогласно требованию дз)
 
 INSERT INTO singer (singer_name) VALUES ('Rammstein'), ('The Killers'), ('Ozzy Osbourne');
 INSERT INTO album (album_name, data) VALUES  ('Rammstein', '2019-05-17'), ('Imploding the mirage', '2020-08-21'), ('Ordinary Man', '2020-02-21');
