@@ -1,9 +1,6 @@
 import psycopg2
 
-with open('1.txt', 'r') as f:
-    password = f.readline().rstrip()
-
-conn = psycopg2.connect(database="netology_db", user="postgres", password=password)
+conn = psycopg2.connect(database="netology_db", user="postgres", password="postgres")
 with conn.cursor() as cur:
 
     def create_tabledb(cur):
